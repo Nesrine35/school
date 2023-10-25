@@ -1,0 +1,110 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* pour le style de l icone de notification  dans la page dashbord*/
+:root {
+  --color-primary: #6f6af8;
+  --color-primary-light: hsl(242, 91%, 69, 18%);
+  --color-primary-varinat: #5854c7;
+  --color-red: red;
+  --color-red-light: hsl(346, 87%, 46%, 15%);
+  --color-green: #00c476;
+  --color-green-light: hst(156, 100%, 38%, 15%);
+  --color-gray-900: #1e1e66;
+  --color-gray-700: #2d2b7c;
+  --color-gray-300: #rgba(242, 242, 254, 0.3);
+  --color-gray-200: rgba(242, 242, 254, 0.7);
+  --color-white: #f2f2fe;
+  --color-bg: #0f0f3e;
+  --transition: all 300ms ease;
+  --container-width-lg: 74%;
+  --container-width-md: 88%;
+  --form-width: 40%;
+  --card-border-radius-1: 0.3rem;
+  --card-border-radius-2: 0.5rem;
+  --card-border-radius-3: 0.8rem;
+  --card-border-radius-4: 2rem;
+  --card-border-radius-5: 5rem;
+}
+
+
+
+
+.ti.ti-bell-ringing-filled:hover{
+    color: black; /* Change to your desired color */
+    
+  }
+         .not:hover {
+    color: green; /* Change to your desired color */
+    
+  }
+  .notification-icon {
+    position: relative;
+    display: inline-block;
+    font-size: 24px;
+  
+  }
+  
+  .notification-number {
+    position: absolute;
+    top: -10px; /* Adjust this value to position the number where you want */
+    right: -10px; /* Adjust this value to position the number where you want */
+    background-color: red; /* Background color for the notification number */
+    color: white; /* Text color for the notification number */
+    border-radius: 50%; /* Make it a circle */
+    padding: 5px 6px; /* Adjust padding for your desired size */
+    font-size: 10px; /* Adjust font size for your desired size */
+  }
+  /*pour l icone cercle*/
+  .ti.ti-info-circle:hover{
+   color:blueviolet;
+
+  }
+  a{
+    text-decoration:none !important ;
+  }
+.ti.ti-eye-closed{
+    color: red;
+    font-size: 24px;
+  }
+  /*navigation barr */
+ 
+  /*******************user nav ***********************************/
+.nav ul li{
+  color: red;
+}
+/*****************template from youtub /******************/
+*{
+  margin:0;
+  padding: 0;
+}
+#nav_bar{
+  position:sticky;
+  top:0;/*lasse9 lfo8*/
+  z-index:10;
+}
+.navbar{
+  background-image: linear-gradient(to right,#a517ba , #5f1782);
+  padding:0 !important;
+}
+.navbar-brand img{
+  height: 40px;
+  padding-left: 20px;
+}
+.navbar-nav li {
+  padding: 0 10px;/* en haut et en bas*/
+}
+.navbar-nav li a{
+  color: #fff !important;
+  font-weight: 600;
+  float: right;
+  text-align: left;
+}
+.fa-bars{
+  color: #fff;
+  font-size: 30px !important;
+}
+.navbar-toggler{
+  outline: none !important;
+}
+
